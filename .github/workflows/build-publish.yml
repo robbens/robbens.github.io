@@ -23,6 +23,8 @@ jobs:
       run: npm install
     - name: Build Site
       run: npm run production
+    - name: Install apps
+      run: npm run apps
     - name: Create CNAME File
       run: echo "robin.se" >> build_production/CNAME
     - name: Stage Files
