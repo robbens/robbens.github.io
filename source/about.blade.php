@@ -21,13 +21,13 @@
 
     <p class="mb-10">I build most of my stuff in Laravel, PHP, Vue.js and plain old JS.</p>
 
-    <h2>Stuff I'm working on:</h2>
+{{--    <h2>Stuff I'm working on:</h2>--}}
 
-    <ul>
-        <li><a href="https://nicedice.io">NiceDice</a> – A crypto currency dice game. <span class="text-red">Deposits are turned off!</span></li>
-        <li><a href="https://up.robin.se">Uptime Monitor</a> – 1 minute checks for free</li>
-        <li><a href="https://vote.robin.se">Live polls</a> – using Websockets</li>
-    </ul>
+{{--    <ul>--}}
+{{--        <li><a href="https://nicedice.io">NiceDice</a> – A crypto currency dice game. <span class="text-red">Deposits are turned off!</span></li>--}}
+{{--        <li><a href="https://up.robin.se">Uptime Monitor</a> – 1 minute checks for free</li>--}}
+{{--        <li><a href="https://vote.robin.se">Live polls</a> – using Websockets</li>--}}
+{{--    </ul>--}}
 
     <p class="mb-6">Since 2018, I'm also working(not paid) with a nonprofit organization called <a href="http://fromonetoanother.se/">From One To Another</a>. They call me the it-support-everything-tech-guy. 😄</p>
 
