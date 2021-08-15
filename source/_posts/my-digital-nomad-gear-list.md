@@ -73,7 +73,7 @@ All purpose vegan soap! Can be used on your entire body, washing clothes or even
 * **Gillette Styler**  
 Small, cheap and runs on one AA battery.
 * **Nuud*  
-This is a tiny, vegan, super concentrated deodorant that you only have to apply every 2-3 days. If you get another brand, make sure it's not an antiperspirant since it will wear out the merino wool faster.  
+This is a tiny, vegan, super concentrated deodorant that you only have to apply every 3-7 days. If you get another brand, make sure it's not an antiperspirant since it will wear out the merino wool faster.  
 * **Bamboo toothbrush**
 * **Mini toothpaste**
 
