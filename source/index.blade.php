@@ -1,6 +1,11 @@
 @extends('_layouts.master')
 
 @section('body')
+    <h1 class="font-medium text-4xl leading-relaxed"><span class="font-bold">Hey</span>, I'm Robin Nilsson, developer at <a href="https://thatsup.se" target="_blank">Thatsup</a>.
+        Read the blog, check out my <a href="https://github.com/robbens" target="_blank">Github</a> and be sure to <a href="mailto:yo@robin.se">get in touch</a> if you want to chat.</h1>
+
+    <hr>
+
     @foreach ($posts->where('featured', true) as $featuredPost)
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)

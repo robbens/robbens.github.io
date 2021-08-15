@@ -44,8 +44,8 @@ Small speaker with good sound and *USB-C port* for charging.
 * **AirPods Pro**  
 I previously used the infamous Bose QC 35 II and the AirPods has won me over. It is unbelievable how they managed to make the noise-cancelling so good. Saves space in my bag, too!
 
-* **Satechi USB-C memory card reader**  
-Tiny and fast. Takes both SD and micro SD cards. Gets a very hot when in use though.
+* **Anker USB-C memory card reader**  
+Tiny and fast. Takes both SD and micro SD cards.
 
 * **Mophie Powerstation 5000mAh**  
 Compact and sleek design. Power input and output via USB-C, with one USB-A port.
@@ -72,16 +72,16 @@ You can read more about merino wool on [Packhacker](https://packhacker.com/guide
 All purpose vegan soap! Can be used on your entire body, washing clothes or even brushing your teeth!
 * **Gillette Styler**  
 Small, cheap and runs on one AA battery.
-* **Crystal deodorant stick*  
-This is a vegan deodorant made from a salt rock. Without aluminum, non-stick, non-stain, and a long lifetime. Perfect for your merino shirts! Make sure you get the travel size version. If you get another brand, make sure it's not an antiperspirant since it will wear out the merino wool faster.  
+* **Nuud*  
+This is a tiny, vegan, super concentrated deodorant that you only have to apply every 2-3 days. If you get another brand, make sure it's not an antiperspirant since it will wear out the merino wool faster.  
 * **Bamboo toothbrush**
 * **Mini toothpaste**
 
 ### Miscellaneous
-* **Ticket to the moon hammock with the Lightest straps**  
-This takes up some space, but I couldn't leave without this bad boy. Nothing beats chilling in the hammock after a long day of exploring.
+* **Ticket to the moon(TTTM) hammock with the Lightest straps**  
+This takes up some space, but I couldn't leave without this bad boy. Nothing beats chilling in the hammock after a long day of exploring. I am thinking about getting the lightest TTTM hammock, but I will have to try it out first.
 * **Eagle creek compression packing cubes**  
-A necessity for all travelers. Organize and compress your clothes.
+A necessity for all travelers. Organize and compress your clothes!
 * **Wallet**  
 I just use a hairband to hold a debit card and cash together 🤷‍♂️
   

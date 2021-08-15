@@ -13,7 +13,6 @@ pagination:
     <hr class="border-b my-6">
 
     <div class="flex">
-        @dump($pagination->items)
         @foreach ($pagination->items as $project)
             <div class="w-1/2">
                 @include('_components.project-preview-inline')
