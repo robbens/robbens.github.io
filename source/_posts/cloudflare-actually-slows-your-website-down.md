@@ -27,6 +27,6 @@ Not sure why Pingdom's screenshot is not working. Nevertheless – I was chocked
 **47.6% faster!**  
 
 ## Conclusion
-You probably don't need Cloudflare. Just use a solid DNS provider along with a CDN and you'll be golden. 
+You probably don't need Cloudflare. Just use a solid DNS provider along with a CDN, and you'll be golden. 
 
 This site is served with static HTML files. With a more complex and dynamic website you might get different results. Better or worse? Do you know? [Send me an email!](mailto:hej@robin.se)  

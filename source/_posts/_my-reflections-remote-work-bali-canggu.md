@@ -8,7 +8,7 @@ categories: []
 
 I use the term working remote instead of digital nomad because I did not do much traveling. Canggu was my only destination apart from visiting a few islands where I did zero amount of work.
 
-These thoughts is based on my own preferences and my type of work – programming. Some parts are also only relevant for Swedish people.     
+These thoughts are based on my own preferences, and my type of work – programming. Some parts are also only relevant for Swedish people.     
 
 ## Why Canggu?
 This place has basically everything a remote worker would want. Most places have a solid internet connection, everyone and everything is relaxed and super chill, awesome value for money and most importantly – other like minded people.
@@ -33,7 +33,7 @@ In a place like Bali, it can be hard to focus with all the amazing distractions 
 Overall pretty good. I usually got around 10 Mbit/s in most hotels, homestays and private villas. 
 If you rent your own villa – talk to the owner about upgrading the speed!
 
-The fastest 4G SIM card? With out a doubt Telkomsel! I got 15 Mbit/s most of the time. Tried all the big carriers and none came close to Telkomsel. You can get 15GB for 130 000 IDR [here](https://goo.gl/maps/JnSeJ83nrWE2). 
+The fastest 4G SIM card? Without a doubt Telkomsel! I got 15 Mbit/s most of the time. Tried all the big carriers and none came close to Telkomsel. You can get 15GB for 130 000 IDR [here](https://goo.gl/maps/JnSeJ83nrWE2). 
 
 ### Co-working
 I thought this part was going to be huge for me as a solo traveler. I started with a 50h membership at Dojo. 

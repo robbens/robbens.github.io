@@ -1,5 +1,5 @@
 <div class="flex flex-col mb-4">
-    <p class="text-grey-darker my-2">
+    <p class="text-gray-700 font-medium my-2">
         {{ $post->getDate()->format('F j, Y') }}
     </p>
 
@@ -7,11 +7,11 @@
         <a
             href="{{ $post->getUrl() }}"
             title="Read more - {{ $post->title }}"
-            class="text-black font-extrabold"
+            class="text-gray-900 font-extrabold"
         >{{ $post->title }}</a>
     </h2>
 
-    <p class="mb-4 mt-0">{!! $post->excerpt(200) !!}</p>
+    <p class="mb-4 mt-0">{!! $post->getExcerpt(200) !!}</p>
 
     <a
         href="{{ $post->getUrl() }}"

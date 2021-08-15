@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://robin.se',
+    'baseUrl' => 'https://my-jigsaw-blog.com',
     'production' => true,
 ];

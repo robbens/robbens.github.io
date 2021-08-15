@@ -3,10 +3,10 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'https://robin.se',
+    'baseUrl' => '',
     'production' => false,
     'siteName' => 'Robin Nilsson',
-    'siteDescription' => 'Just Another PHP Developer',
+    'siteDescription' => 'Web developer',
     'siteAuthor' => 'Robin Nilsson',
 
     // collections
@@ -15,6 +15,11 @@ return [
             'author' => 'Robin Nilsson', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
+        ],
+        'projects' => [
+            'author' => 'Robin Nilsson', // Default author, if not provided in a post
+            'sort' => '-date',
+            'path' => 'projects',
         ],
         'categories' => [
             'path' => '/blog/categories/{filename}',
@@ -30,11 +35,22 @@ return [
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },
-    'excerpt' => function ($page, $length = 255) {
-        $cleaned = strip_tags(
-            preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/'], '', $page->getContent()),
-            '<code>'
+    'getExcerpt' => function ($page, $length = 255) {
+        if ($page->excerpt) {
+            return $page->excerpt;
+        }
+
+        $content = preg_split('/<!-- more -->/m', $page->getContent(), 2);
+        $cleaned = trim(
+            strip_tags(
+                preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/'], '', $content[0]),
+                '<code>'
+            )
         );
+
+        if (count($content) > 1) {
+            return $cleaned;
+        }
 
         $truncated = substr($cleaned, 0, $length);
 

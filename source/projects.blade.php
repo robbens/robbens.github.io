@@ -1,24 +1,29 @@
 ---
-title: Blog
-description: The list of blog posts for the site
+title: Project
+description: My current projects
 pagination:
-    collection: posts
-    perPage: 4
+    collection: projects
+    perPage: 12
 ---
 @extends('_layouts.master')
 
 @section('body')
-    <h1>Blog</h1>
+    <h1>Projects</h1>
 
     <hr class="border-b my-6">
 
-    @foreach ($pagination->items as $post)
-        @include('_components.post-preview-inline')
+    <div class="flex">
+        @dump($pagination->items)
+        @foreach ($pagination->items as $project)
+            <div class="w-1/2">
+                @include('_components.project-preview-inline')
+            </div>
 
-        @if ($post != $pagination->items->last())
-            <hr class="border-b my-6">
-        @endif
-    @endforeach
+            @if ($project != $pagination->items->last())
+                <hr class="border-b my-6">
+            @endif
+        @endforeach
+    </div>
 
     @if ($pagination->pages->count() > 1)
         <nav class="flex text-base my-8">
