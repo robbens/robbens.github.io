@@ -19,7 +19,7 @@ description: My name is Robin Nilsson. I'm a Swedish web developer
     <h2>What I like to do on my spare time</h2>
 
     <p class="mt-10">
-        ✈️ I enjoy <strong>traveling</strong> and creating amateur travel videos. Of course I work remote while doing so.
+        ✈️ I enjoy <strong>traveling</strong> and creating amateur travel videos. And of course I <strong>work remote</strong> while doing so.
     </p>
     <p class="mt-10">
         🪂 <strong>Skydiving</strong> is a hobby I recently found which has taken over quite a bit to be honest. It is an amazing sport with a community unlike anything I've experienced.
