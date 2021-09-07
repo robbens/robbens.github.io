@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'https://robin.se',
+    'baseUrl' => '',
     'production' => false,
     'siteName' => 'Robin Nilsson',
     'siteDescription' => 'Web developer',
