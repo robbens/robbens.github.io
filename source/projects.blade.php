@@ -12,7 +12,7 @@ pagination:
 
     <hr class="border-b my-6">
 
-    <div class="grid grid-cols-2">
+    <div class="grid md:grid-cols-2">
         @foreach ($pagination->items as $project)
             <div>
                 @include('_components.project-preview-inline')
