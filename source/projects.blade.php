@@ -12,15 +12,11 @@ pagination:
 
     <hr class="border-b my-6">
 
-    <div class="flex">
+    <div class="grid grid-cols-2">
         @foreach ($pagination->items as $project)
-            <div class="w-1/2">
+            <div>
                 @include('_components.project-preview-inline')
             </div>
-
-            @if ($project != $pagination->items->last())
-                <hr class="border-b my-6">
-            @endif
         @endforeach
     </div>
 

@@ -18,13 +18,25 @@
 
     <div>
         @if($project->development)
-            <span class="bg-green-500 text-white text-xs font-semibold rounded-3xl px-3 py-1 mb-2 mt-2 mr-2">
+            <span class="bg-orange-500 text-white text-xs font-semibold rounded-3xl px-3 py-1 mb-2 mt-2 mr-2">
                 In development
             </span>
         @endif
 
         @foreach($project->tech as $text)
-            <span class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-xs font-semibold rounded-3xl px-3 py-1 mb-2 mt-2 mr-2">
+            @php
+                $css = 'from-blue-500 to-indigo-600 text-white';
+
+                if ($text === 'Laravel') {
+                    $css = 'from-red-400 to-red-700 text-white';
+                }
+
+                if ($text === 'Vue.Js') {
+                    $css = 'from-green-400 to-green-700 text-white';
+                }
+            @endphp
+
+            <span class="bg-gradient-to-r {{ $css }} text-xs font-semibold rounded-3xl px-3 py-1 mb-2 mt-2 mr-2 {{ \Illuminate\Support\Str::kebab($text) }}">
                 {{ $text }}
             </span>
         @endforeach
